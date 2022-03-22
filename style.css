@@ -1,0 +1,127 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#middle
+{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+body{
+    background: #232325;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button
+{
+    color: #e8eaed;
+    padding: 10px;
+    position: absolute;
+    left: 37%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    background: #303134;
+    border-radius: 4px;
+}
+.button:hover
+{
+    border:2px solid black;
+}
+#button-two
+{
+    left:60%;
+}
+#google-image-button
+{
+    left: 50%;
+}
+.text-area
+{
+    margin-top: 10px;
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #5f6368;
+    font-family: inherit;
+    text-align:left;
+    padding:5px;
+    padding-left: 20px;
+    font-size:15px;
+    background: #232325;
+    font-family: 'Roboto', sans-serif;
+    color: #e8eaed;
+}
+
+.text-area:hover{
+    background: #303033;
+}
+#google
+{
+    color: white;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* margin-bottom: 5px;     */
+    font-size:90px;
+    margin: 0px;
+    padding: 0px;
+}
+#google-image
+{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;   
+    padding: 0px;
+    color: blue;
+}
+#top-right
+{
+    text-align:right;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#left
+{
+    position: absolute;
+    padding: 40px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+#square
+{
+    width: 500px;
+    height: 40px;
+    border: 4px solid black;
+    text-align:left;
+    font-size:large;
+}
+.search_name
+{
+    text-align:left;
+    font-size: xx-large;
+}
+
+#advance_button
+{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    width: 140px;
+    height: 40px;
+}
+#advance_button:hover
+{
+    background-color: darkblue;
+}
